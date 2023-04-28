@@ -11,8 +11,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className={inter.className}>
       <Head>
-        <title>News app</title>
-        <meta name="description" content="a news website created by nextjs" />
+        <title key="title">News app</title>
+        <meta name="description" key="description" content="a news website created by nextjs" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/newspaper.ico" />
       </Head>

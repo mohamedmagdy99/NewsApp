@@ -4,10 +4,12 @@ import styles from '@/styles/Home.module.css'
 
 
 
-export default function Home() {
+export default function BreakingNews() {
   return (
     <>
-      
+      <Head>
+        <title key="title">Breaking News</title>
+      </Head>
       <main>
         hello.
       </main>
